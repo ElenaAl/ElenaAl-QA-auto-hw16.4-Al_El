@@ -27,7 +27,7 @@ public class Pet {
 
     private List<String> photoUrls;
     private String name;
-    private int id;
+    private long id;
     private Category category;
     private List<TagsItem> tags;
     private String status;
@@ -48,11 +48,11 @@ public class Pet {
         return name;
     }
 
-    public final void setId(final int id) {
+    public final void setId(final long  id) {
         this.id = id;
     }
 
-    public final int getId() {
+    public final long getId() {
         return id;
     }
 

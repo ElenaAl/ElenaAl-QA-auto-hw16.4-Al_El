@@ -17,6 +17,7 @@ import java.util.Arrays;
 import java.util.stream.Stream;
 
 
+
 public class StatusCodeTests {
 
     @BeforeEach
@@ -26,7 +27,7 @@ public class StatusCodeTests {
 
     public static Stream<Arguments> params() {
         Pet myPet = new Pet();
-        myPet.setId(1);
+        myPet.setId(9222968140498484534L);
         myPet.setName("Sunny");
         Category category = new Category();
         category.setName("Dog");
